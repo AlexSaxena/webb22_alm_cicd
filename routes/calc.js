@@ -1,3 +1,7 @@
+const express = require('express');
+
+const router = express.Router();
+
 class Calculator {
   constructor() {
     this.result = 0;
@@ -27,4 +31,9 @@ class Calculator {
     return this.result;
   }
 }
-module.exports = { Calculator };
+
+router.get('/', (req, res) => {
+  res.send('Add Calculator');
+});
+
+module.exports = router;

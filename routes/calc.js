@@ -2,8 +2,8 @@ const express = require('express');
 
 const router = express.Router();
 
-const { calculator } = require('../controllers/calculator');
+const Calculator = require('../controllers/calculator');
 
-router.get('/', calculator);
+router.get('/', Calculator);
 
 module.exports = router;

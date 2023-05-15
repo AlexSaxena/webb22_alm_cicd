@@ -15,7 +15,9 @@ router.get('/', (req, res, next) => {
     add: myCalc.add(x, y),
     remove: myCalc.remove(x, y),
     multiply: myCalc.multiply(x, y),
-    divide: myCalc.divide(x, y),
+    divide: Number.isNaN(myCalc.divide(x, y))
+      ? 0
+      : myCalc.divide(x, y).toFixed(2),
   });
 });
 

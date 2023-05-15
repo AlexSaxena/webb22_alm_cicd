@@ -4,14 +4,16 @@ const router = express.Router();
 
 const Calculator = require('../controllers/calculator');
 
-const myCalc = new Calculator();
-
 router.get('/', (req, res, next) => {
+  const myCalc = new Calculator();
+  const x = Number(req.query.val1);
+  const y = Number(req.query.val2);
+
   res.render('calculator', {
-    add: myCalc.add(2, 2),
-    remove: myCalc.remove(2, 2),
-    multiply: myCalc.multiply(2, 2),
-    divide: myCalc.divide(2, 2),
+    add: myCalc.add(x, y),
+    remove: myCalc.remove(x, y),
+    multiply: myCalc.multiply(x, y),
+    divide: myCalc.divide(x, y),
   });
 });
 

@@ -10,6 +10,8 @@ router.get('/', (req, res, next) => {
   const y = Number(req.query.val2);
 
   res.render('calculator', {
+    val1: x,
+    val2: y,
     add: myCalc.add(x, y),
     remove: myCalc.remove(x, y),
     multiply: myCalc.multiply(x, y),

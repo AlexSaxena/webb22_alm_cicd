@@ -2,38 +2,8 @@ const express = require('express');
 
 const router = express.Router();
 
-class Calculator {
-  constructor() {
-    this.result = 0;
-  }
+const { calculator } = require('../controllers/calculator');
 
-  getResult() {
-    return this.result;
-  }
-
-  add(x, y) {
-    this.result = x + y;
-    return this.result;
-  }
-
-  remove(x, y) {
-    this.result = x - y;
-    return this.result;
-  }
-
-  multiply(x, y) {
-    this.result = x * y;
-    return this.result;
-  }
-
-  divide(x, y) {
-    this.result = x / y;
-    return this.result;
-  }
-}
-
-router.get('/', (req, res) => {
-  res.send('Add Calculator');
-});
+router.get('/', calculator);
 
 module.exports = router;

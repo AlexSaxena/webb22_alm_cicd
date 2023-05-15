@@ -7,19 +7,45 @@
     <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
     <title>Calc</title>
   </head>
-  <body>
-    <h1>My Calculator</h1>
-    <form method="get">
-      <label for="val1">Calculator</label>
-      <input type="number" name="val1" id="val1" />
-      <input type="number" name="val2" id="val2" />
-      <button>Calculate</button>
-    </form>
-
+  <body style="display: flex; flex-direction: column; align-items: center">
+    <a href="/" style="position: absolute; top: 5; left: 0; margin-left: 1rem"
+      >Back Home</a
+    >
+    <h1 style="text-decoration: underline">My Calculator</h1>
+    <div>
+      <form
+        method="get"
+        style="display: flex; flex-direction: column; gap: 0.5rem"
+      >
+        <label for="val1">Value 1</label>
+        <input type="number" name="val1" id="val1" />
+        <label for="val2">Value 2</label>
+        <input type="number" name="val2" id="val2" />
+        <button>Calculate</button>
+      </form>
+    </div>
     <p>Given Values <%= val1 ? val1 : 0 %> & <%= val2 ? val2 : 0 %></p>
-    <p>Add -> <%= add ? add : 0 %></p>
-    <p>Sub -> <%= remove ? remove : 0 %></p>
-    <p>Multi -> <%= multiply ? multiply : 0 %></p>
-    <p>Div -> <%= divide ? divide : 0 %></p>
+    <table>
+      <tr>
+        <th>Operator</th>
+        <th>Result</th>
+      </tr>
+      <tr>
+        <td>Add</td>
+        <td><%= add ? add : 0 %></td>
+      </tr>
+      <tr>
+        <td>Sub</td>
+        <td><%= remove ? remove : 0 %></td>
+      </tr>
+      <tr>
+        <td>Multi</td>
+        <td><%= multiply ? multiply : 0 %></td>
+      </tr>
+      <tr>
+        <td>Div</td>
+        <td><%= divide ? divide : 0 %></td>
+      </tr>
+    </table>
   </body>
 </html>

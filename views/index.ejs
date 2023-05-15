@@ -5,10 +5,18 @@
     <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
     <link rel="stylesheet" href="/stylesheets/style.css" />
   </head>
-  <body>
+  <body
+    style="
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    "
+  >
     <h1><%= title %></h1>
     <p>Welcome to <%= title %></p>
-    <img src="/images/pika.jpg" alt="Roid Pika" />
-    <div></div>
+    <img src="/images/pika.jpg" alt="Roid Pika" width="200rem" />
+    <a href="./users">Users</a>
+    <a href="./calculator">Calculator</a>
   </body>
 </html>

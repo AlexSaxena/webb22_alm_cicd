@@ -4,13 +4,21 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
     <title>Calc</title>
   </head>
   <body>
-    <h1>My Calc</h1>
-    <p><%= add %></p>
-    <p><%= remove %></p>
-    <p><%= multiply %></p>
-    <p><%= divide %></p>
+    <h1>My Calculator</h1>
+    <form method="get">
+      <label for="val1">Calculator</label>
+      <input type="number" name="val1" id="val1" />
+      <input type="number" name="val2" id="val2" />
+      <button>Calculate</button>
+    </form>
+
+    <p>Add -> <%= add ? add : 0 %></p>
+    <p>Sub -> <%= remove ? remove : 0 %></p>
+    <p>Multi -> <%= multiply ? multiply : 0 %></p>
+    <p>Div -> <%= divide ? divide : 0 %></p>
   </body>
 </html>

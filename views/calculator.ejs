@@ -5,45 +5,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="data:image/x-icon;," type="image/x-icon" />
+    <link rel="stylesheet" href="/stylesheets/style.css" />
     <title>Calc</title>
   </head>
-  <body style="display: flex; flex-direction: column; align-items: center">
-    <a href="/" style="position: absolute; top: 5; left: 0; margin-left: 1rem"
-      >Back Home</a
-    >
-    <h1 style="text-decoration: underline">My Calculator</h1>
+  <body class="calculator-body">
+    <a href="/" class="home-link">Back Home</a>
+    <h1 class="calc-h1">My Calculator</h1>
     <div>
-      <form
-        method="get"
-        style="display: flex; flex-direction: column; gap: 0.5rem"
-      >
+      <form method="get" class="calculator-form">
         <label for="val1">Value 1</label>
-        <input type="number" name="val1" id="val1" />
+        <input type="number" name="val1" id="val1" value="0" />
         <label for="val2">Value 2</label>
-        <input type="number" name="val2" id="val2" />
+        <input type="number" name="val2" id="val2" value="0" />
         <button>Calculate</button>
       </form>
     </div>
-    <p>Given Values <%= val1 ? val1 : 0 %> & <%= val2 ? val2 : 0 %></p>
-    <table>
+
+    <p class="calc-values">
+      Given Values <%= val1 ? val1 : 0 %> & <%= val2 ? val2 : 0 %>
+    </p>
+    <table class="result-table">
       <tr>
         <th>Operator</th>
         <th>Result</th>
       </tr>
       <tr>
-        <td>Add</td>
+        <td>Add +</td>
         <td><%= add ? add : 0 %></td>
       </tr>
       <tr>
-        <td>Sub</td>
+        <td>Sub -</td>
         <td><%= remove ? remove : 0 %></td>
       </tr>
       <tr>
-        <td>Multi</td>
+        <td>Multi x</td>
         <td><%= multiply ? multiply : 0 %></td>
       </tr>
       <tr>
-        <td>Div</td>
+        <td>Div &#247;</td>
         <td><%= divide %></td>
       </tr>
     </table>

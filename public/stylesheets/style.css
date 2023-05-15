@@ -1,8 +1,43 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
 }
-
 a {
-  color: #00B7FF;
+  color: black;
+  font-size: large;
+}
+a:hover {
+  color: #00b7ff;
+}
+.calculator-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.home-link {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.calc-h1 {
+  text-decoration: underline;
+}
+.calculator-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.calc-values {
+  font-size: large;
+}
+.result-table {
+  border: solid black 1px;
+  width: 20rem;
+  text-align: center;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
 }

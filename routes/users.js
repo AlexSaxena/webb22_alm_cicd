@@ -4,7 +4,7 @@ const router = express.Router();
 
 /* GET users listing. */
 router.get('/', (req, res) => {
-  res.json({ initials: 'AS, ES, NP, KE' });
+  res.status(200).json({ initials: 'AS, ES, NP, KE' });
 });
 
 module.exports = router;

@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="0.038" tests="11" failures="0">
-  <testsuite name="Root Suite" timestamp="2023-05-21T13:03:09" tests="0" time="0.000" failures="0">
+<testsuites name="Mocha Tests" time="0.037" tests="11" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-05-21T13:03:43" tests="0" time="0.000" failures="0">
   </testsuite>
-  <testsuite name="Calculator" timestamp="2023-05-21T13:03:09" tests="0" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\calculator.test.js" time="0.000" failures="0">
+  <testsuite name="Calculator" timestamp="2023-05-21T13:03:43" tests="0" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\calculator.test.js" time="0.000" failures="0">
   </testsuite>
-  <testsuite name="getResult()" timestamp="2023-05-21T13:03:09" tests="1" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\calculator.test.js" time="0.002" failures="0">
+  <testsuite name="getResult()" timestamp="2023-05-21T13:03:43" tests="1" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\calculator.test.js" time="0.002" failures="0">
     <testcase name="Calculator getResult() should return 0 when the calculator is created" time="0.000" classname="should return 0 when the calculator is created">
     </testcase>
   </testsuite>
-  <testsuite name="addition" timestamp="2023-05-21T13:03:09" tests="2" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\calculator.test.js" time="0.001" failures="0">
+  <testsuite name="addition" timestamp="2023-05-21T13:03:43" tests="2" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\calculator.test.js" time="0.001" failures="0">
     <testcase name="Calculator addition should return 3 if add 1 + 2" time="0.000" classname="should return 3 if add 1 + 2">
     </testcase>
     <testcase name="Calculator addition should return -2 if add -1 + -1" time="0.000" classname="should return -2 if add -1 + -1">
     </testcase>
   </testsuite>
-  <testsuite name="remove" timestamp="2023-05-21T13:03:09" tests="1" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\calculator.test.js" time="0.000" failures="0">
+  <testsuite name="remove" timestamp="2023-05-21T13:03:43" tests="1" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\calculator.test.js" time="0.000" failures="0">
     <testcase name="Calculator remove should return 1 if 2 - 1" time="0.000" classname="should return 1 if 2 - 1">
     </testcase>
   </testsuite>
-  <testsuite name="multiply" timestamp="2023-05-21T13:03:09" tests="3" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\calculator.test.js" time="0.001" failures="0">
+  <testsuite name="multiply" timestamp="2023-05-21T13:03:43" tests="3" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\calculator.test.js" time="0.000" failures="0">
     <testcase name="Calculator multiply should return 6 if add 1 * 2" time="0.000" classname="should return 6 if add 1 * 2">
     </testcase>
     <testcase name="Calculator multiply should return -6 if add 2 * -3" time="0.000" classname="should return -6 if add 2 * -3">
@@ -26,19 +26,19 @@
     <testcase name="Calculator multiply should return 0 if add 10 * 0" time="0.000" classname="should return 0 if add 10 * 0">
     </testcase>
   </testsuite>
-  <testsuite name="divide" timestamp="2023-05-21T13:03:09" tests="2" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\calculator.test.js" time="0.001" failures="0">
+  <testsuite name="divide" timestamp="2023-05-21T13:03:43" tests="2" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\calculator.test.js" time="0.000" failures="0">
     <testcase name="Calculator divide should return 2 if 6 / 3" time="0.000" classname="should return 2 if 6 / 3">
     </testcase>
     <testcase name="Calculator divide should return 0 if 0 / 10" time="0.000" classname="should return 0 if 0 / 10">
     </testcase>
   </testsuite>
-  <testsuite name="Array" timestamp="2023-05-21T13:03:09" tests="0" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\test.js" time="0.000" failures="0">
+  <testsuite name="Array" timestamp="2023-05-21T13:03:43" tests="0" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\test.js" time="0.000" failures="0">
   </testsuite>
-  <testsuite name="#indexOf()" timestamp="2023-05-21T13:03:09" tests="1" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\test.js" time="0.000" failures="0">
+  <testsuite name="#indexOf()" timestamp="2023-05-21T13:03:43" tests="1" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\test.js" time="0.000" failures="0">
     <testcase name="Array #indexOf() should return -1 when the value is not present" time="0.000" classname="should return -1 when the value is not present">
     </testcase>
   </testsuite>
-  <testsuite name="GET /users" timestamp="2023-05-21T13:03:09" tests="1" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\user.test.js" time="0.032" failures="0">
+  <testsuite name="GET /users" timestamp="2023-05-21T13:03:43" tests="1" file="E:\Programmering\Nackademin\alm\webb22_alm_cicd\test\user.test.js" time="0.031" failures="0">
     <testcase name="GET /users responds with json" time="0.030" classname="responds with json">
     </testcase>
   </testsuite>

@@ -9,17 +9,33 @@ jobs:
 
     if: ${{ github.ref != 'refs/heads/main' }}
     steps:
-      - name: Print Deploy Message
-        run: 'echo now deploying branch: ${{ github.ref }} to the test server'
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+
+      - name: Installs Packets
+        run: 'npm i'
 
       - name: Set Env to Development
         run: 'npm run setDev'
+
+      - name: Print Deploy Message
+        run: 'echo now deploying branch: ${{ github.ref }} to the test server'
 
   deploy_production:
     runs-on: ubuntu-latest
 
     if: ${{ github.ref == 'refs/heads/main' }}
     steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '18.x'
+
+      - name: Installs Packets
+        run: 'npm i'
+
       - name: Print Deploy Message
         run: 'echo now deploying to production'
 

@@ -8,7 +8,9 @@
     "lint": "eslint .",
     "prepare": "husky install",
     "test": "nyc mocha --recursive",
-    "format": "npx prettier --write ."
+    "format": "npx prettier --write .",
+    "setProd": "set NODE_ENV=production",
+    "setDev": "set NODE_ENV=development"
   },
   "dependencies": {
     "cookie-parser": "^1.4.6",

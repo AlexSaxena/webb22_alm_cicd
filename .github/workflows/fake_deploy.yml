@@ -12,6 +12,9 @@ jobs:
       - name: Print Deploy Message
         run: 'echo now deploying branch: ${{ github.ref }} to the test server'
 
+      - name: Set Env to Development
+        run: 'npm run setDev'
+
   deploy_production:
     runs-on: ubuntu-latest
 
@@ -19,3 +22,6 @@ jobs:
     steps:
       - name: Print Deploy Message
         run: 'echo now deploying to production'
+
+      - name: Set Env to Production
+        run: 'npm run setProd'

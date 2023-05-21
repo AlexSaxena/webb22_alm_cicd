@@ -13,7 +13,7 @@ describe('Greeting', function () {
   });
   describe('getGreet() with param', function () {
     it('should return Hello Anakin when entered Anakin ', function () {
-      assert.equal(this.greet.sayHello('Anakin'), 'Hello Anakin');
+      assert.equal(this.greet.sayHello('Obi Wan'), 'Hello Anakin');
     });
   });
 });

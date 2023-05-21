@@ -1,4 +1,5 @@
-FROM node:lts
+# FROM node:lts
+FROM nginx:alpine
 
 # Create app directory
 WORKDIR /usr/src/app

@@ -8,6 +8,7 @@
     "lint": "eslint .",
     "prepare": "husky install",
     "test": "nyc mocha",
+    "coverage": "nyc report --reporter=html --reporter=text --reporter=text-lcov",
     "format": "npx prettier --write .",
     "setProd": "set NODE_ENV=production",
     "setDev": "set NODE_ENV=development"

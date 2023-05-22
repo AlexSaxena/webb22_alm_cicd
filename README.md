@@ -1,3 +1,4 @@
+[![Build Status][ci-image]][ci-url]
 [![Coverage Status](https://coveralls.io/repos/github/AlexSaxena/webb22_alm_cicd/badge.svg?branch=main)](https://coveralls.io/github/AlexSaxena/webb22_alm_cicd?branch=main)
 
 # webb22_alm_cicd
@@ -50,3 +51,6 @@ You can install the latest version using this commmand
 
 For further explanation see official Documentation https://typicode.github.io/husky/
 <br>
+
+[ci-image]: https://github.com/AlexSaxena/webb22_alm_cicd/actions/workflows/test.yml/badge.svg
+[ci-url]: https://github.com/AlexSaxena/webb22_alm_cicd/actions/workflows/test

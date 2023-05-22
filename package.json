@@ -7,7 +7,8 @@
     "lint-fix": "eslint --fix .",
     "lint": "eslint .",
     "prepare": "husky install",
-    "test": "nyc mocha --recursive",
+    "test": "mocha --recursive --reporter json --reporter-option output=test-report.json",
+    "nycTest": "nyc mocha --recursive",
     "format": "npx prettier --write .",
     "setProd": "set NODE_ENV=production",
     "setDev": "set NODE_ENV=development"

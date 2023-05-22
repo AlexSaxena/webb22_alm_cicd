@@ -26,7 +26,10 @@ jobs:
       - name: Install npm dependencies
         run: npm i
 
-      - name: Run Tests Coverage
+      - name: Run Tests
+        run: npm run test
+
+      - name: Run Coverage
         run: npm run coverage
 
       - name: Coveralls

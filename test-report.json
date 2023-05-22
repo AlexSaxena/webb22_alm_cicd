@@ -5,9 +5,9 @@
     "passes": 11,
     "pending": 0,
     "failures": 0,
-    "start": "2023-05-22T09:01:06.768Z",
-    "end": "2023-05-22T09:01:06.805Z",
-    "duration": 37
+    "start": "2023-05-22T09:18:31.680Z",
+    "end": "2023-05-22T09:18:31.716Z",
+    "duration": 36
   },
   "tests": [
     {
@@ -104,7 +104,7 @@
       "title": "responds with json",
       "fullTitle": "GET /users responds with json",
       "file": "E:\\Programmering\\Nackademin\\alm\\webb22_alm_cicd\\test\\user.test.js",
-      "duration": 33,
+      "duration": 30,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}
@@ -207,7 +207,7 @@
       "title": "responds with json",
       "fullTitle": "GET /users responds with json",
       "file": "E:\\Programmering\\Nackademin\\alm\\webb22_alm_cicd\\test\\user.test.js",
-      "duration": 33,
+      "duration": 30,
       "currentRetry": 0,
       "speed": "fast",
       "err": {}

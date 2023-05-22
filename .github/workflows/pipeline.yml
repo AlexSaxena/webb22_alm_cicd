@@ -2,6 +2,7 @@ name: First Workflow
 
 on:
   push:
+  pull_request:
     branches:
       - main
 
@@ -30,3 +31,11 @@ jobs:
 
       - name: Run Lint Check
         run: 'npm run lint'
+
+      - name: Test Reporting
+        uses: phoenix-actions/test-reporting@v12
+        if: success() || failure()
+        with:
+          name: Test Report
+          path: test-report.json
+          reporter: mocha-json

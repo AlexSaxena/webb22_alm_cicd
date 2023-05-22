@@ -7,7 +7,7 @@
     "lint-fix": "eslint --fix .",
     "lint": "eslint .",
     "prepare": "husky install",
-    "test": "nyc mocha --recursive",
+    "test": "nyc mocha",
     "format": "npx prettier --write .",
     "setProd": "set NODE_ENV=production",
     "setDev": "set NODE_ENV=development"
@@ -21,6 +21,7 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "coveralls": "^3.1.1",
     "@commitlint/cli": "^17.6.3",
     "@commitlint/config-conventional": "^17.6.3",
     "eslint": "^8.40.0",

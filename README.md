@@ -1,3 +1,5 @@
+[![Coverage Status](https://coveralls.io/repos/github/AlexSaxena/webb22_alm_cicd/badge.svg?branch=main)](https://coveralls.io/github/AlexSaxena/webb22_alm_cicd?branch=main)
+
 # webb22_alm_cicd
 
 ## Getting Started

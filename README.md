@@ -54,7 +54,7 @@ For further explanation see official Documentation https://typicode.github.io/hu
 
 ### Author
 
-Alex Saxena
+<a href="https://github.com/AlexSaxena">Alex Saxena</a>
 
 [ci-image]: https://github.com/AlexSaxena/webb22_alm_cicd/actions/workflows/test.yml/badge.svg
 [ci-url]: https://github.com/AlexSaxena/webb22_alm_cicd/actions/workflows/test

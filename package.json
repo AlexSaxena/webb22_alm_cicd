@@ -7,7 +7,7 @@
     "lint-fix": "eslint --fix .",
     "lint": "eslint .",
     "prepare": "husky install",
-    "test": "nyc mocha --grep Remote --invert",
+    "test": "nyc mocha --grep Suite",
     "test-remote": "mocha ./test/remoteContainer.test.js",
     "format": "npx prettier --write .",
     "setProd": "set NODE_ENV=production",

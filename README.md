@@ -52,5 +52,9 @@ You can install the latest version using this commmand
 For further explanation see official Documentation https://typicode.github.io/husky/
 <br>
 
+### Author
+
+Alex Saxena
+
 [ci-image]: https://github.com/AlexSaxena/webb22_alm_cicd/actions/workflows/test.yml/badge.svg
 [ci-url]: https://github.com/AlexSaxena/webb22_alm_cicd/actions/workflows/test

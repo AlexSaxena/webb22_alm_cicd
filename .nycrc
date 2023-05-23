@@ -4,7 +4,7 @@
   "temp-dir": ".nyc_output",
   "all": true,
   "check-coverage": true,
-  "exclude": ["commitlint.config.js", "coverage/lcov-report/**"],
+  "exclude": ["test/**", "commitlint.config.js", "coverage/lcov-report/**"],
   "stmts": 80,
   "branch": 80,
   "funcs": 80,

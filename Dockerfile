@@ -15,7 +15,6 @@ RUN npm install
 # Bundle app source, but its better to copy the specific folder and files needed
 COPY . .
 
-# Set NODE_ENV
-ENV NODE_ENV production
+# Run command & Port
 EXPOSE 3000
-CMD [ "node", "app.js" ]
+CMD [ "npm", "start" ]
